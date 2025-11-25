@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Hero Section</title>
+    <link rel="stylesheet" href="style.css">
+     <!-- Use Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!-- Use Inter font from Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="page-header">
+        <nav class="navbar">
+            <a href="" class="logo">Mujahid Emdad</a>
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item"><a href="#hero" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="#experience" class="nav-link">Work Experience</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <p class="intro">Hello! I am  </p>
+            <h2 class="name">Mujahid Emdad</h2>
+            <h4 class="sub-title">A Full Stack Web Developer</h4>
+            <p class="description">
+                Who loves turning ideas into clean, functional digital experiences. I started with simple web pages, and over time, I grew into building full MERN applications and crafting smooth websites with WordPress, Framer, and Webflow.
+                Solving complex problems in simple ways is what drives me. Every project teaches me something new, and I’m always looking for the next challenge that helps me grow and create better work.
+            </p>
+
+            <div class="buttons">
+                <a href="#contact" class="btn btn-primary">Contact Me</a>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <img src="images/Mujahid Emdad - Web Profile .png" alt="Profile Image">
+        </div>
+    </section>
+
+    <!-- Skill Section -->
+    <section id="skills" class="skill-container">
+        <div class="skill-content">
+            <h2>My <span class="highlight">Expertise</span></h2>
+            <p>Experienced with all stages of the development cycle for dynamic web projects.</p>
+        </div>
+
+        <div class="skills">
+            
+            <div class="skill-item">
+                <div class="progress-circle">
+                    <div class="progress-icon">
+                        <img src="images/html-icon.png">
+                    </div>
+                </div>
+                <div class="skill-name">HTML</div>
+            </div>
+
+            <div class="skill-item">
+                <div class="progress-circle">
+                    <div class="progress-icon">
+                        <img src="images/css-icon.png">
+                    </div>
+                </div>
+                <div class="skill-name">CSS</div>
+            </div>
+
+            <div class="skill-item">
+                <div class="progress-circle">
+                    <div class="progress-icon">
+                        <img src="images/tailwind-icon.png">
+                    </div>
+                </div>
+                <div class="skill-name">Tailwind CSS</div>
+            </div>
+
+            <div class="skill-item">
+                <div class="progress-circle">
+                    <div class="progress-icon">
+                        <img src="images/js-icon.png">
+                    </div>
+                </div>
+                <div class="skill-name">JavaScript</div>
+            </div>
+
+            <div class="skill-item">
+                <div class="progress-circle">
+                    <div class="progress-icon">
+                        <img src="images/react-icon.png"> 
+                    </div>
+                </div>
+                <div class="skill-name">React</div>
+            </div>
+            
+            <div class="skill-item">
+                <div class="progress-circle">
+                    <div class="progress-icon">
+                        <img src="images/nextjs-icon.png">
+                    </div>
+                </div>
+                <div class="skill-name">Next Js</div>
+            </div>
+
+            <div class="skill-item">
+                <div class="progress-circle">
+                    <div class="progress-icon">
+                        <img src="images/nodejs-icon.png">
+                    </div>
+                </div>
+                <div class="skill-name">Node js</div>
+            </div>
+
+            <div class="skill-item">
+                <div class="progress-circle">
+                    <div class="progress-icon">
+                        <img src="images/postgre-icon.png">
+                    </div>
+                </div>
+                <div class="skill-name">PostgreSQL</div>
+            </div>
+
+            <div class="skill-item">
+                <div class="progress-circle">
+                    <div class="progress-icon">
+                        <img src="images/mongodb-icon.png">
+                    </div>
+                </div>
+                <div class="skill-name">MongoDB</div>
+            </div>
+
+            <div class="skill-item">
+                <div class="progress-circle">
+                    <div class="progress-icon">
+                        <img src="images/git-icon.png">
+                    </div>
+                </div>
+                <div class="skill-name">Git</div>
+            </div>
+
+            <div class="skill-item">
+                <div class="progress-circle">
+                    <div class="progress-icon">
+                        <img src="images/github-icon.png">
+                    </div>
+                </div>
+                <div class="skill-name">Github</div>
+            </div>
+
+            <div class="skill-item">
+                <div class="progress-circle">
+                    <div class="progress-icon">
+                        <img src="images/wordpress-icon.png">
+                    </div>
+                </div>
+                <div class="skill-name">Wordpress</div>
+            </div>
+
+            <div class="skill-item">
+                <div class="progress-circle">
+                    <div class="progress-icon">
+                        <img src="images/webflow-icon.png">
+                    </div>
+                </div>
+                <div class="skill-name">Webflow</div>
+            </div>
+
+            <div class="skill-item">
+                <div class="progress-circle">
+                    <div class="progress-icon">
+                        <img src="images/framer-icon.png">
+                    </div>
+                </div>
+                <div class="skill-name">Framer</div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--Service Section-->
+    <section id="services" class="services-container">
+        <div class="services-content">
+            <p class="service-subtitle">My Services</p>
+            <h2 class="service-title"> <span class="highlight">Services</span>  I Offer to My Clients</h2>
+        </div>
+
+        <div class="cards-container">
+            
+            <div class="service-card">
+                <div class="card-icon"><i class="fa-brands fa-figma"></i></div>
+                <h2 class="card-title">UI/UX Design</h2>
+                <p class="card-description">I create clean, intuitive, and user-focused designs that make your product easy to use and visually engaging. Every layout is crafted to ensure a smooth and meaningful experience for your audience.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="card-icon"><i class="fa-solid fa-bezier-curve"></i></i></div>
+                <h2 class="card-title">Web Design</h2>
+                <p class="card-description">I design modern, responsive, and visually appealing websites that reflect your brand and keep users engaged. My goal is to blend creativity with clarity to deliver designs that look great on every device.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="card-icon"><i class="fa-solid fa-code"></i></div>
+                <h2 class="card-title">Web Development</h2>
+                <p class="card-description">I build fast, scalable, and secure websites using the latest technologies. From front-end to back-end, I turn ideas into fully functional solutions that perform smoothly and grow with your business.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!--Experience Section-->
+    <section id="experience" class="experience-container">
+        <div class="experience-content">
+            <h2 class="experience-title">Work <span class="highlight">Experience</span></h2>
+        </div>
+
+        <div class="experience-grid">
+
+            <!-- Card 1: Digital Pondit (Present) -->
+            <div class="experience-card">
+                <div class="com-logo">
+                    <img src="images/dp-logo.png">
+                </div>
+                <div class="card-content">
+                    <div class="job-title">Web Designer & Digital Marketing Executive</div>
+                    <div class="company-name">Digital Pondit</div>
+                    <span class="duration">Jul 2024 - Present</span>
+                    <p class="responsibilities">Key responsibilities included planning and implementing digital marketing strategies, maintaining social media and increasing website traffic through Facebook ads and SEO.</p>
+                </div>
+            </div>
+
+            <!-- Card 2: Tnkle Limited -->
+            <div class="experience-card">
+                <div class="com-logo">
+                    <img src="images/tnkle-logo.png">
+                </div>
+                <div class="card-content">
+                    <div class="job-title">Web Designer & Digital Marketing Executive</div>
+                    <div class="company-name">Tnkle Limited</div>
+                    <span class="duration">Feb 2023 - Jun 2024</span>
+                    <p class="responsibilities">Key responsibilities included planning and implementing digital marketing strategies, maintaining social media and increasing website traffic through Facebook ads and SEO.</p>
+                </div>
+            </div>
+
+            <!-- Card 3: Digital Pondit -->
+            <div class="experience-card">
+                <div class="com-logo">
+                    <img src="images/dp-logo.png">
+                </div>
+                <div class="card-content">
+                    <div class="job-title">Web Designer & SEO Specialist (Remote)</div>
+                    <div class="company-name">Digital Pondit</div>
+                    <span class="duration">Aug 2021 - Dec 2022</span>
+                    <p class="responsibilities">With key responsibilities of planning, maintaining the website and increasing website traffic to grow their business in online. I was able to rank competitive keyword position in the SERP.</p>
+                </div>
+            </div>
+
+        
+            <!-- Card 4: UNYSA Bangladesh -->
+            <div class="experience-card">
+                <div class="com-logo">
+                    <img src="images/UNYSAB-rd.png">
+                </div>
+                <div class="card-content">
+                    <div class="job-title">Coordinator of Branding and Documentation</div>
+                    <div class="company-name">UNYSA Bangladesh- Rajshahi Division</div>
+                    <span class="duration">Mar 2020 - Apr 2022</span>
+                    <p class="responsibilities">With key responsibilities of generating ideas and content for promotion, designing and implementing programs, maintaining online and social media promotion, managing the IT and documentation team.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Contact Section-->
+    <section id="contact" class="contact">
+        <div class="contact-container">
+            <div class="contact-header">
+                <p class="subtitle">Contact Me</p>
+                <h2 class="title">Let's Work Together</h2>
+                <p class="description">Your content goes here. Edit or remove this text inline or in the module Content settings. You can also style every aspect of this content in the module Design settings and even apply custom CSS to this text in the module Advanced settings.</p>
+            </div>
+
+            <form class="contact-form">
+                
+                <div class="form-grid">
+                    <!-- Name -->
+                    <div class="input-group">
+                        <input type="text" placeholder="Name" required>
+                    </div>
+
+                    <!-- Email Address -->
+                    <div class="input-group">
+                        <input type="email" placeholder="Email Address" required>
+                    </div>
+
+                    <!-- Message -->
+                    <div class="input-group full-width">
+                        <textarea placeholder="Message" required></textarea>
+                    </div>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="submit-container">
+                    <button type="submit" class="submit-button">Submit</button>
+                </div>
+            </form>
+
+        </div>
+    </section>
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-content">
+            &copy; 2025 Mujahid Emdad. Full Stack Web Developer.
+        </div>
+    </footer>
+
+    <!-- Menu Script -->
+    <script>
+    function toggleMenu() {
+        const navMenu = document.getElementById('navMenu');
+        navMenu.classList.toggle('active');
+    }
+    </script>
+</body>
+</html>
